@@ -15,13 +15,13 @@
  limitations under the License.
 -->
 
-# [Apache Log4j 2](https://logging.apache.org/log4j/2.x/)
+# [Apache Log4j 3](https://logging.apache.org/log4j/3.x/)
 
-Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor, Log4j 1.x,
+Apache Log4j 3 is an upgrade to Log4j 2 and Log4j that provides significant improvements over its predecessors, Log4j 2.x, and Log4j 1.x,
 and provides many of the improvements available in Logback while fixing some inherent problems in Logback's architecture.
 
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.logging.log4j/log4j-api.svg)](https://search.maven.org/artifact/org.apache.logging.log4j/log4j-api)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/apache/logging-log4j2/build/release-2.x)](https://github.com/apache/logging-log4j2/actions/workflows/build.yml)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/apache/logging-log4j2/build/release-3.x)](https://github.com/apache/logging-log4j2/actions/workflows/build.yml)
 ![CodeQL](https://github.com/apache/logging-log4j2/actions/workflows/codeql-analysis.yml/badge.svg)
 
 ## Pull Requests on Github
@@ -33,7 +33,7 @@ judged to be non-trivial, you will be asked to actually signing a Contributor Li
 
 ## Usage
 
-Users should refer to [Maven, Ivy, Gradle, and SBT Artifacts](http://logging.apache.org/log4j/2.x/maven-artifacts.html)
+Users should refer to [Maven, Ivy, Gradle, and SBT Artifacts](http://logging.apache.org/log4j/3.x/maven-artifacts.html)
 on the Log4j website for instructions on how to include Log4j into their project using their chosen build tool.
 
 Basic usage of the `Logger` API:
@@ -80,8 +80,8 @@ And an example `log4j2.xml` configuration file:
 
 ## Documentation
 
-The Log4j 2 User's Guide is available [here](https://logging.apache.org/log4j/2.x/manual/index.html) or as a downloadable
-[PDF](https://logging.apache.org/log4j/2.x/log4j-users-guide.pdf).
+The Log4j 3 User's Guide is available [here](https://logging.apache.org/log4j/3.x/manual/index.html) or as a downloadable
+[PDF](https://logging.apache.org/log4j/3.x/log4j-users-guide.pdf).
 
 ## Requirements
 
@@ -92,14 +92,14 @@ The Log4j 2 User's Guide is available [here](https://logging.apache.org/log4j/2.
 
 ## License
 
-Apache Log4j 2 is distributed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+Apache Log4j 3 is distributed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Download
 
-[How to download Log4j](http://logging.apache.org/log4j/2.x/download.html),
-and [how to use it from Maven, Ivy and Gradle](http://logging.apache.org/log4j/2.x/maven-artifacts.html).
+[How to download Log4j](http://logging.apache.org/log4j/3.x/download.html),
+and [how to use it from Maven, Ivy and Gradle](http://logging.apache.org/log4j/3.x/maven-artifacts.html).
 You can access the latest development snapshot by using the Maven repository `https://repository.apache.org/snapshots`,
-see [Snapshot builds](https://logging.apache.org/log4j/2.x/maven-artifacts.html#Snapshot_builds).
+see [Snapshot builds](https://logging.apache.org/log4j/3.x/maven-artifacts.html#Snapshot_builds).
 
 ## Issue Tracking
 
